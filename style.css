@@ -1,0 +1,42 @@
+body
+{
+    background: rgb(74,224,99);
+background: linear-gradient(90deg, rgba(74,224,99,1) 0%, rgba(39,232,161,1) 15%, rgba(39,232,194,1) 30%, rgba(39,232,220,1) 45%, rgba(39,179,232,1) 60%, rgba(39,89,232,1) 75%, rgba(71,39,232,1) 90%);
+}
+
+h1
+{
+    color:palevioletred;
+    background-color: darkmagenta;
+
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border:5px solid white;
+    border-radius:  20px;
+    animation-name: gia;
+    animation-duration:4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes gia{
+    from{box-shadow: 10px 10px 50px purple}
+    to{box-shadow: 10px 10px 50px darkblue}
+
+
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+    
+}
